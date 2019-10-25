@@ -1,6 +1,6 @@
 import pickle
 
-from utilities.data_structures.Config import Config
+from drl.utilities.data_structures.Config import Config
 from Trainer import Trainer
 
 

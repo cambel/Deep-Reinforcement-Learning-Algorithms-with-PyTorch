@@ -1,9 +1,9 @@
 from gym.wrappers import FlattenDictWrapper
-from agents.DQN_agents.DQN_HER import DQN_HER
+from drl.agents.DQN_agents.DQN_HER import DQN_HER
 from environments.Bit_Flipping_Environment import Bit_Flipping_Environment
-from agents.Trainer import Trainer
-from utilities.data_structures.Config import Config
-from agents.DQN_agents.DQN import DQN
+from drl.agents.Trainer import Trainer
+from drl.utilities.data_structures.Config import Config
+from drl.agents.DQN_agents.DQN import DQN
 
 config = Config()
 config.seed = 1

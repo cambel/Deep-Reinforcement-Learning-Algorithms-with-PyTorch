@@ -1,8 +1,8 @@
-from agents.hierarchical_agents.SNN_HRL import SNN_HRL
-from agents.Trainer import Trainer
-from utilities.data_structures.Config import Config
-from agents.DQN_agents.DQN import DQN
-from agents.hierarchical_agents.h_DQN import h_DQN
+from drl.agents.hierarchical_agents.SNN_HRL import SNN_HRL
+from drl.agents.Trainer import Trainer
+from drl.utilities.data_structures.Config import Config
+from drl.agents.DQN_agents.DQN import DQN
+from drl.agents.hierarchical_agents.h_DQN import h_DQN
 from environments.Long_Corridor_Environment import Long_Corridor_Environment
 
 config = Config()

@@ -5,17 +5,17 @@ sys.path.append(dirname(dirname(abspath(__file__))))
 
 import gym
 
-from agents.actor_critic_agents.A2C import A2C
-from agents.DQN_agents.Dueling_DDQN import Dueling_DDQN
-from agents.actor_critic_agents.SAC_Discrete import SAC_Discrete
-from agents.actor_critic_agents.A3C import A3C
-from agents.policy_gradient_agents.PPO import PPO
-from agents.Trainer import Trainer
-from utilities.data_structures.Config import Config
-from agents.DQN_agents.DDQN import DDQN
-from agents.DQN_agents.DDQN_With_Prioritised_Experience_Replay import DDQN_With_Prioritised_Experience_Replay
-from agents.DQN_agents.DQN import DQN
-from agents.DQN_agents.DQN_With_Fixed_Q_Targets import DQN_With_Fixed_Q_Targets
+from drl.agents.actor_critic_agents.A2C import A2C
+from drl.agents.DQN_agents.Dueling_DDQN import Dueling_DDQN
+from drl.agents.actor_critic_agents.SAC_Discrete import SAC_Discrete
+from drl.agents.actor_critic_agents.A3C import A3C
+from drl.agents.policy_gradient_agents.PPO import PPO
+from drl.agents.Trainer import Trainer
+from drl.utilities.data_structures.Config import Config
+from drl.agents.DQN_agents.DDQN import DDQN
+from drl.agents.DQN_agents.DDQN_With_Prioritised_Experience_Replay import DDQN_With_Prioritised_Experience_Replay
+from drl.agents.DQN_agents.DQN import DQN
+from drl.agents.DQN_agents.DQN_With_Fixed_Q_Targets import DQN_With_Fixed_Q_Targets
 
 config = Config()
 config.seed = 1
@@ -28,7 +28,7 @@ config.visualise_individual_results = False
 config.visualise_overall_agent_results = True
 config.standard_deviation_results = 1.0
 config.runs_per_agent = 1
-config.use_GPU = False
+config.use_GPU = True
 config.overwrite_existing_results_file = False
 config.randomise_random_seed = True
 config.save_model = False

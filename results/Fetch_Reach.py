@@ -1,9 +1,9 @@
 import gym
 
-from agents.actor_critic_agents.DDPG import DDPG
-from agents.actor_critic_agents.DDPG_HER import DDPG_HER
-from utilities.data_structures.Config import Config
-from agents.Trainer import Trainer
+from drl.agents.actor_critic_agents.DDPG import DDPG
+from drl.agents.actor_critic_agents.DDPG_HER import DDPG_HER
+from drl.utilities.data_structures.Config import Config
+from drl.agents.Trainer import Trainer
 
 
 config = Config()

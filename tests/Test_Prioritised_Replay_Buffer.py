@@ -1,4 +1,4 @@
-from utilities.data_structures.Prioritised_Replay_Buffer import Prioritised_Replay_Buffer
+from drl.utilities.data_structures.Prioritised_Replay_Buffer import Prioritised_Replay_Buffer
 import numpy as np
 import random
 

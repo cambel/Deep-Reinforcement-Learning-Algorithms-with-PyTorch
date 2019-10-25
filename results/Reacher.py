@@ -1,8 +1,12 @@
+import os
+import sys
+from os.path import dirname, abspath
+sys.path.append(dirname(dirname(abspath(__file__))))
 import gym
-from agents.Trainer import Trainer
-from agents.actor_critic_agents.DDPG import DDPG
-from agents.hierarchical_agents.HIRO import HIRO
-from utilities.data_structures.Config import Config
+from drl.agents.Trainer import Trainer
+from drl.agents.actor_critic_agents.DDPG import DDPG
+from drl.agents.hierarchical_agents.HIRO import HIRO
+from drl.utilities.data_structures.Config import Config
 config = Config()
 config.seed = 1
 config.environment = gym.make("Reacher-v2") #  Reacher-v2 "InvertedPendulum-v2") #Pendulum-v0

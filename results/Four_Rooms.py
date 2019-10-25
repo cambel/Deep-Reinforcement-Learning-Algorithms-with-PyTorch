@@ -1,7 +1,7 @@
-from agents.DQN_agents.DDQN import DDQN
+from drl.agents.DQN_agents.DDQN import DDQN
 from environments.Four_Rooms_Environment import Four_Rooms_Environment
-from agents.Trainer import Trainer
-from utilities.data_structures.Config import Config
+from drl.agents.Trainer import Trainer
+from drl.utilities.data_structures.Config import Config
 
 config = Config()
 config.seed = 1

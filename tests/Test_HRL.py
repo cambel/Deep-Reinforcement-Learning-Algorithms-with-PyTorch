@@ -2,8 +2,8 @@ import gym
 import pytest
 
 
-from utilities.Utility_Functions import flatten_action_id_to_actions
-from utilities.data_structures.Config import Config
+from drl.utilities.Utility_Functions import flatten_action_id_to_actions
+from drl.utilities.data_structures.Config import Config
 
 config = Config()
 config.seed = 1

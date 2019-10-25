@@ -1,10 +1,10 @@
 import gym
 from environments.Atari_Environment import make_atari_game
-from agents.DQN_agents.DDQN import DDQN
-from agents.hierarchical_agents.HRL.HRL import HRL
-from agents.hierarchical_agents.HRL.Model_HRL import Model_HRL
-from agents.Trainer import Trainer
-from utilities.data_structures.Config import Config
+from drl.agents.DQN_agents.DDQN import DDQN
+from drl.agents.hierarchical_agents.HRL.HRL import HRL
+from drl.agents.hierarchical_agents.HRL.Model_HRL import Model_HRL
+from drl.agents.Trainer import Trainer
+from drl.utilities.data_structures.Config import Config
 
 config = Config()
 config.seed = 1

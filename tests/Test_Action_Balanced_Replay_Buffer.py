@@ -3,7 +3,7 @@ from collections import Counter
 
 import pytest
 
-from utilities.data_structures.Action_Balanced_Replay_Buffer import Action_Balanced_Replay_Buffer
+from drl.utilities.data_structures.Action_Balanced_Replay_Buffer import Action_Balanced_Replay_Buffer
 
 def test_add_experience():
     """Tests that add_experience works correctly"""

@@ -3,15 +3,15 @@ from collections import Counter
 
 import pytest
 
-from agents.DQN_agents.DQN_HER import DQN_HER
-from agents.DQN_agents.DDQN import DDQN
-from agents.DQN_agents.DDQN_With_Prioritised_Experience_Replay import DDQN_With_Prioritised_Experience_Replay
-from agents.DQN_agents.DQN_With_Fixed_Q_Targets import DQN_With_Fixed_Q_Targets
+from drl.agents.DQN_agents.DQN_HER import DQN_HER
+from drl.agents.DQN_agents.DDQN import DDQN
+from drl.agents.DQN_agents.DDQN_With_Prioritised_Experience_Replay import DDQN_With_Prioritised_Experience_Replay
+from drl.agents.DQN_agents.DQN_With_Fixed_Q_Targets import DQN_With_Fixed_Q_Targets
 from environments.Bit_Flipping_Environment import Bit_Flipping_Environment
-from agents.policy_gradient_agents.PPO import PPO
-from agents.Trainer import Trainer
-from utilities.data_structures.Config import Config
-from agents.DQN_agents.DQN import DQN
+from drl.agents.policy_gradient_agents.PPO import PPO
+from drl.agents.Trainer import Trainer
+from drl.utilities.data_structures.Config import Config
+from drl.agents.DQN_agents.DQN import DQN
 import numpy as np
 import torch
 

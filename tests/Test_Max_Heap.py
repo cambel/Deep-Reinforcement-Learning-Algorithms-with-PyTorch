@@ -1,7 +1,7 @@
 import random
-from utilities.data_structures.Max_Heap import Max_Heap
+from drl.utilities.data_structures.Max_Heap import Max_Heap
 import numpy as np
-from utilities.data_structures.Node import Node
+from drl.utilities.data_structures.Node import Node
 
 
 def test_heap_always_keeps_max_element_at_top():

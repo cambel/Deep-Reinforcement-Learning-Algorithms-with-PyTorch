@@ -3,7 +3,7 @@ from collections import defaultdict
 
 import pytest
 
-from utilities.grammar_algorithms.k_Sequitur import k_Sequitur
+from drl.utilities.grammar_algorithms.k_Sequitur import k_Sequitur
 
 def test_generate_1_layer_of_rules():
     """Tests generate_1_layer_of_rules"""
